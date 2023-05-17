@@ -1,0 +1,300 @@
+
+html{
+    background-color: rgba(0, 0, 0, 0.927);
+    height: max-content;
+    width: 100%;
+   
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.first-section{
+    display: flex;  
+    height: 1100px;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    background-position: top;
+    background: linear-gradient(103.24deg, rgba(0, 8, 29, 0.89) 23.83%, rgba(0, 0, 0, 0.023) 96.1%);
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.89) 23.83%, rgba(0, 0, 0, 0.023) 96.1%),url(https://assets.nflxext.com/ffe/siteui/vlv3/70805ddd-f38c-4e25-94cd-b5015e444ee0/6e99205c-e34b-4dbe-ba45-b026023791bc/IN-en-20230508-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    position: relative;
+    flex-direction: column;
+
+}
+
+
+.header-section{
+  
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+}
+.heading{
+    font-weight: 900;
+    font-size: 60px;
+}
+.netflix-logo{
+    color: red;
+    margin-left: 45px;
+    position: relative;
+    left: 10px;
+    font-size: xx-large;
+    font-family: Tw Cen MT Condensed Extra Bold;
+    font-weight: 900;
+}
+
+.login-button{margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+.btn-danger{
+    
+    border: 0px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding-top: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: red;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    top: 35px;
+    right:70px;
+}
+
+#lang-options{
+    border-radius: 5px;
+    size: 10px;
+    position: absolute;
+    top: 35px;
+    right: 200px;
+    color: rgb(253, 253, 253);
+    background: rgba(20, 15, 15,0.6) ;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+/* INFO SECTION */
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.flex-container-info{
+    margin: 20px 100px 10px 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+
+.email-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    height: 100px;
+    margin-top: 10px;
+}
+/* .email-form{
+    display: flex;
+    flex-direction: row;
+    
+} */
+#email{
+    height:50px;
+    width: 400px;
+    background-color: rgba(9, 3, 3, 0.411);
+    font-size: 20px;
+    border-radius: 5px;
+    color: aliceblue;
+   
+}
+#email:active{
+    background-color: rgb(52, 46, 46);
+    border-color: greenyellow;
+    border: 1px 1px 1px 1px;
+}
+.started-button {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 15px;
+
+}
+
+.second-section{
+
+    background:linear-gradient(170deg, rgba(0, 0, 0, 0.913), rgba(3, 8, 43, 0.913) 50%);
+    height: 1500px;
+
+}
+
+
+/* Card section */
+/* .second-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+} */
+
+.cards-section{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    margin: -300px 10px 100px 50px;
+}
+
+/* card image modification */
+.card{
+    height: 500px;
+    size: 20px;
+    position: relative;
+    top: 10px;
+    right: 5px;
+    margin: 10px 3px 10px 3px;
+    border: black 1px solid;
+    height: 400px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: black;
+    background: linear-gradient(170deg, rgba(220, 21, 114, 0.913), rgba(8, 17, 82, 0.913) 50%);
+
+}
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.card-body{
+    color: white;
+    padding: 10px 20px 0px 10px ;
+    margin: 5px 10px 10px 10px;
+}
+.card-img-top{
+    height: 80px;
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    margin: 20px 10px 10px 10px ;
+    padding: 5px 0px 0px 10px;
+
+}
+/* 
+accordion-section */
+.question{
+    color: rgb(212, 207, 207);
+}
+.accordion-section{
+    padding: 20px 10px 50px 10px;
+    margin: 250px 80px 50px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-item{
+    background: rgba(6, 4, 71, 0.724);
+    color: white;
+    border-radius: 100px;
+    font-size: 20px;
+    
+}
+.accordion-button{
+    font-size: 20px;
+    height: 80px;
+    background: rgba(6, 4, 71, 0.724);
+    color: white;
+    margin: 2px 2px 2px 2px;
+    
+}
+
+.accordion-button:hover{
+    background: rgba(80, 77, 155, 0.724);
+    color: white;
+}
+
+
+.ready-watch{
+    color: white;
+
+}
+
+/* footer section */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 10px 10px -40px ;
+    color: white;
+}
+.first-row{
+    margin: 10px 10px 10px 10px ;
+
+}
+.list{
+    
+    margin: 10px 10px 10px 10px ;
+}
+.list-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.ph-num {
+    color: rgb(130, 118, 118);
+    margin: 0px 10px 10px 70px;
+}
+
+.link{
+    color: rgb(158, 153, 153);
+}
+
+#lang-option-footer{
+    background-color: black;
+    color: rgb(246, 246, 246);
+    padding: 2px 15px 2px 15px ;
+    margin: 10px 20px 10px 70px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.Netflix-India{
+    color: rgb(142, 149, 155);
+    margin: 10px 0px 0px 70px;
+
+}
